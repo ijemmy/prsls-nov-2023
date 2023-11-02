@@ -392,7 +392,7 @@ There are a couple of solutions to this:
 2. Programmatically reference the `RestaurantsTableName` stack output we added above.
 3. Export the table name as a SSM parameter (by adding a `AWS::SSM::Parameter` resource to our `serverless.yml`) and programmatically reference it from the script.
 
-For the purpose of this demo app, let's use option 1, as it'll come in handy for us later on when we start writing tests. See [Paul Swail](https://twitter.com/paulswail)'s [post](https://winterwindsoftware.com/cloud-config-local-tests/) for more details.
+For the purpose of this demo app, let's use option 1, as it'll come in handy for us later on when we start writing tests. See [Paul Swail](https://twitter.com/paulswail)'s [post](https://serverlessfirst.com/cloud-config-local-tests/) for more details.
 
 1. Install the `serverless-export-env` plugin by running
 
