@@ -10,8 +10,6 @@ If I was to guess, I'd say all of our functions can run comfortably on a much lo
 
 Alex Casalboni's [aws-lambda-power-tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) lets us collect performance information to find the best memory allocation for our workload. However, to use it, you need to deploy a Step Functions state machine, and invoke it yourself. Which is kinda clumsy.
 
-Which is why I wrapped it into a single command you can run with the [lumigo-cli](https://www.npmjs.com/package/lumigo-cli#lumigo-cli-powertune-lambda), which also manages the deployment and upgrading of Alex's state machine too.
-
 <details>
 <summary><b>Manually tune functions</b></summary><p>
 
